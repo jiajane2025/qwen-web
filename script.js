@@ -14,7 +14,7 @@ input.addEventListener('keypress', async (e) => {
 
         try {
             // 发送请求到本地代理
-            const response = await fetch('https://qwen-proxy-server-44p8t7vlv-jiajanes-projects.vercel.app/api/qwen',{
+            const response = await fetch('https://qwen-proxy-server-kr0b8zgia-jiajanes-projects.vercel.app/api/qwen',{
                 
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
